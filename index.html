@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AL SAMEER TRAVELS - Premium Flight Booking</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <img src="assets/majilogo.jpg" alt="AL SAMEER TRAVELS Logo">
+            <span class="logo-text">AL SAMEER TRAVELS</span>
+        </div>
+        <nav>
+            <ul id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Fly the World with <span>AL SAMEER TRAVELS</span></h1>
+                <p>Experience seamless flight bookings with the best prices. Our expert agents are available to help you plan your perfect journey.</p>
+                <div class="hero-buttons">
+                    <a href="#destinations" class="cta-btn">Start Your Journey</a>
+                    <a href="#process" class="cta-btn secondary">How It Works</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero.jpeg" alt="Luxury Air Travel with AL SAMEER TRAVELS">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <div class="section-title">
+            <h2>Why Choose Us</h2>
+            <p>We provide exceptional service with a personal touch that sets us apart from the rest.</p>
+        </div>
+        <div class="features-grid">
+            <div class="glass-card feature-card" data-aos="fade-up">
+                <div class="feature-icon">
+                    <i class="fas fa-tag"></i>
+                </div>
+                <h3>Lowest Airfares</h3>
+                <p>Get exclusive deals and discounts that you won't find anywhere else. We negotiate directly with airlines.</p>
+            </div>
+            <div class="glass-card feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Worldwide Destinations</h3>
+                <p>Book flights to any destination across the globe with our extensive network of airline partners.</p>
+            </div>
+            <div class="glass-card feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Group & Corporate</h3>
+                <p>Special discounts and dedicated support for group bookings and corporate travel plans.</p>
+            </div>
+            <div class="glass-card feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Customer Support</h3>
+                <p>Our travel experts are available round the clock to assist you with all your travel needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="section" id="destinations">
+        <div class="section-title">
+            <h2>Popular Destinations</h2>
+            <p>Explore our most sought-after flight routes with competitive pricing.</p>
+        </div>
+        <div class="destinations-grid">
+            <!-- Dubai -->
+            <div class="glass-card destination-card" data-aos="fade-up">
+                <img src="assets/dubai.png" alt="Dubai Skyline" loading="lazy">
+                <div class="destination-overlay">
+                    <h3>Dubai</h3>
+                    <p><i class="fas fa-plane"></i> Direct flights available</p>
+                    <a href="https://wa.me/+918807313702" class="cta-btn">Chat to Book</a>
+                </div>
+            </div>
+
+            <!-- Brunei -->
+            <div class="glass-card destination-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/burnei.png" alt="Brunei Mosque" loading="lazy">
+                <div class="destination-overlay">
+                    <h3>Brunei</h3>
+                    <p><i class="fas fa-plane"></i> 1 stop flights</p>
+                    <a href="https://wa.me/+918807313702" class="cta-btn">Chat to Book</a>
+                </div>
+            </div>
+
+            <!-- Malaysia -->
+            <div class="glass-card destination-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/malaysia.png" alt="Kuala Lumpur" loading="lazy">
+                <div class="destination-overlay">
+                    <h3>Malaysia</h3>
+                    <p><i class="fas fa-plane"></i> Direct flights available</p>
+                    <a href="https://wa.me/+918807313702" class="cta-btn">Chat to Book</a>
+                </div>
+            </div>
+
+            <!-- Kuwait -->
+            <div class="glass-card destination-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="assets/kuwait.png" alt="Kuwait Towers" loading="lazy">
+                <div class="destination-overlay">
+                    <h3>Kuwait</h3>
+                    <p><i class="fas fa-plane"></i> 1 stop flights</p>
+                    <a href="https://wa.me/+918807313702" class="cta-btn">Chat to Book</a>
+                </div>
+            </div>
+
+            <!-- Saudi Arabia -->
+            <div class="glass-card destination-card" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/saudi.png" alt="Mecca" loading="lazy">
+                <div class="destination-overlay">
+                    <h3>Saudi Arabia</h3>
+                    <p><i class="fas fa-plane"></i> Direct flights available</p>
+                    <a href="https://wa.me/+918807313702" class="cta-btn">Chat to Book</a>
+                </div>
+            </div>
+
+            <!-- Thailand -->
+            <div class="glass-card destination-card" data-aos="fade-up" data-aos-delay="500">
+                <img src="assets/thailand.png" alt="Bangkok Temples" loading="lazy">
+                <div class="destination-overlay">
+                    <h3>Thailand</h3>
+                    <p><i class="fas fa-plane"></i> Limited flights</p>
+                    <a href="https://wa.me/+918807313702" class="cta-btn">Chat to Book</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="service">
+        <div class="container">
+            <div class="section-title">
+                <h2>The AL SAMEER TRAVELS Service</h2>
+                <p>Discover our premium flight booking services tailored to your needs</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="timeline-content glass-card">
+                        <h3>Flight Booking Assistance</h3>
+                        <p>We specialize in booking domestic and international flights at the best possible rates. Our team ensures smooth and hassle-free ticketing with flexible options tailored to your travel needs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-content glass-card">
+                        <h3>Customized Tour Packages</h3>
+                        <p>Explore handpicked tour packages designed just for you. Whether it's a family vacation, honeymoon, or group trip, we create unforgettable travel experiences across the globe.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="timeline-content glass-card">
+                        <h3> Visa & Documentation Support</h3>
+                        <p>We provide expert support for visa applications and travel documentation. Our experienced staff guides you through the entire process to avoid delays and confusion.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                    <div class="timeline-content glass-card">
+                        <h3> Hotel & Accommodation Booking</h3>
+                        <p>We partner with top hotels and resorts worldwide to offer you the best stay options. From budget to luxury, we arrange accommodations that match your comfort, style, and budget.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="500">
+                    <div class="timeline-content glass-card">
+                        <h3>Customer Support</h3>
+                        <p>Our dedicated support team is available around the clock to help you with inquiries, changes, or emergencies—ensuring peace of mind throughout your journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section" id="process">
+        <div class="section-title">
+            <h2>How It Works</h2>
+            <p>Booking your flight with us is quick and effortless. Just follow these simple steps.</p>
+        </div>
+        <div class="process-steps">
+            <div class="step" data-aos="fade-up">
+                <div class="step-number">1</div>
+                <h3>Choose Destination</h3>
+                <p>Select your preferred travel destination and dates from our wide range of options.</p>
+            </div>
+            <div class="step" data-aos="fade-up" data-aos-delay="100">
+                <div class="step-number">2</div>
+                <h3>Message on WhatsApp</h3>
+                <p>Send us your travel details via WhatsApp and our agent will find the best deals for you.</p>
+            </div>
+            <div class="step" data-aos="fade-up" data-aos-delay="200">
+                <div class="step-number">3</div>
+                <h3>Get Your Ticket</h3>
+                <p>Receive your e-ticket instantly via email or WhatsApp after confirmation and payment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="about-container">
+            <div class="about-image-wrapper" data-aos="fade-right">
+                <div class="about-image">
+                    <img src="assets/about.jpg" alt="AL SAMEER TRAVELS Team">
+                </div>
+            </div>
+            <div class="about-content" data-aos="fade-left">
+                <h2>About AL SAMEER TRAVELS</h2>
+                <p>AL SAMEER TRAVELS has been providing exceptional flight booking services to thousands of satisfied customers. Our mission is to make air travel accessible and affordable for everyone.</p>
+                <p>With our extensive network of airline partners and years of industry experience, we negotiate the best fares so you don't have to. Our team of travel experts is available to assist you with all your travel needs.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3><span class="counter" data-target="18">0</span>+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3><span class="counter" data-target="15000">0</span>+</h3>
+                        <p>Tickets Booked</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3><span class="counter" data-target="7">0</span> Days</h3>
+                        <p>Support Available Every Day</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3><span class="counter" data-target="100">0</span>+</h3>
+                        <p>Destinations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>Get in touch with our travel experts for personalized assistance with your flight bookings.</p>
+        </div>
+        <div class="contact-container">
+            <div class="glass-card contact-info" data-aos="fade-right">
+                <h2>Ready to Book Your Flight?</h2>
+                <p>Our team is available to assist you with flight bookings, itinerary planning, and any travel-related queries. Contact us today for the best deals and personalized service.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>WhatsApp</h4>
+                            <p>+91 88073 13702</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Call Us</h4>
+                            <p>+91 88073 13702</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>alsameertravels1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Office</h4>
+                            <p class="address">No. 21, ST-1, Nehru Nagar North 1st Street,<br>Ayyampet, Thanjavur District,<br>Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://wa.me/918807313702" class="cta-btn">Chat on WhatsApp</a>
+            </div>
+            <div class="glass-card map-container" data-aos="fade-left">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62686.34339735257!2d79.12386242969112!3d10.895472815721917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baac5f664337ee7%3A0x1073dce2c4011ad0!2sAyyampettai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1747417365634!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join With Us Section -->
+    <section class="join-section" id="join" data-aos="fade-up">
+        <div class="join-container">
+            <div class="join-content glass-card">
+                <h2 data-aos="fade-up" data-aos-delay="100">Let's Join With Us</h2>
+                <p data-aos="fade-up" data-aos-delay="200">AL SAMEER TRAVELS has helped over 15,000 customers book their perfect flights at the best prices.</p>
+                <div class="join-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://wa.me/+918807313702" class="cta-btn">Book Your Tour Now</a>
+                    <a href="tel:+918807313702" class="cta-btn secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="image-collage">
+                <div class="circle-img large glass-card" data-aos="zoom-in" data-aos-delay="100" style="background-image: url('assets/img1.avif');"></div>
+                <div class="circle-img medium glass-card" data-aos="zoom-in" data-aos-delay="200" style="background-image: url('assets/img2.avif');"></div>
+                <div class="circle-img small glass-card" data-aos="zoom-in" data-aos-delay="300" style="background-image: url('assets/img3.avif');"></div>
+                <div class="circle-img large glass-card" data-aos="zoom-in" data-aos-delay="400" style="background-image: url('assets/img4.avif');"></div>
+                <div class="circle-img medium glass-card" data-aos="zoom-in" data-aos-delay="100" style="background-image: url('assets/img5.avif');"></div>
+                <div class="circle-img small glass-card" data-aos="zoom-in" data-aos-delay="200" style="background-image: url('assets/img6.avif');"></div>
+                <div class="circle-img large glass-card" data-aos="zoom-in" data-aos-delay="300" style="background-image: url('assets/img7.avif');"></div>
+                <div class="circle-img medium glass-card" data-aos="zoom-in" data-aos-delay="400" style="background-image: url('assets/img8.avif');"></div>
+                <div class="circle-img small glass-card" data-aos="zoom-in" data-aos-delay="100" style="background-image: url('assets/img9.avif');"></div>
+                <div class="circle-img large glass-card" data-aos="zoom-in" data-aos-delay="200" style="background-image: url('assets/img10.avif');"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>AL SAMEER TRAVELS</h3>
+                <p>Your trusted partner for flight bookings with the best prices and personalized service.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+918807313702"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Flight Booking</a></li>
+                    <li><a href="#">Group Travel</a></li>
+                    <li><a href="#">Corporate Travel</a></li>
+                    <li><a href="#">Visa Assistance</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="tel:+918807313702"><i class="fas fa-phone-alt"></i> +91 88073 13702</a></li>
+                    <li><a href="https://wa.me/+918807313702"><i class="fab fa-whatsapp"></i> +91 88073 13702</a></li>
+                    <li><a href="mailto:alsameertravels1@gmail.com"><i class="fas fa-envelope"></i> alsameertravels1@gmail.com</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> No. 21, ST-1, Nehru Nagar North 1st Street, Ayyampet, Thanjavur District, Tamil Nadu, India</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 AL SAMEER TRAVELS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <div class="whatsapp-tooltip">Got a question? Chat with us!</div>
+        <a href="https://wa.me/+918807313702" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
